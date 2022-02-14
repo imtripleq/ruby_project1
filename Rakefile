@@ -1,4 +1,3 @@
-# frozen_string_literal: true
+require_relative '../lib/username.rb'
 
-require "bundler/gem_tasks"
-task default: %i[]
+User.create_table
