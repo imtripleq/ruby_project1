@@ -1,4 +1,4 @@
-class User < ActiveRecords::Base
+class User
   attr_accessor :name, :score, :categories
   def initialize(name)
     @name = name
